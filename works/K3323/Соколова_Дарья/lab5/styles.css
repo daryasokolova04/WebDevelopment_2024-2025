@@ -1,0 +1,16 @@
+.container {
+	width: 800px;
+	height: 600px;
+	position: relative;
+	margin: 0 auto;
+}
+
+area {
+	cursor: pointer;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	color: rgba(17, 17, 17, 0.765);
+	text-align: center;
+}

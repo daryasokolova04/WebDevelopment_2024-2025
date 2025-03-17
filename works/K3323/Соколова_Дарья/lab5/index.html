@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Карта изображений</title>
+</head>
+<body>
+    <h1>Карта изображений с различными фигурами</h1>
+    <div class="container">
+        <img src='assets/background.png' width="100%" height="auto" usemap="#image-map" alt= "Карта" />
+
+        <map name="image-map">
+            <area shape="rect" coords="150,60,330,200" href="order/index.html" target="_blank" 
+                    alt="Прямоугольник" title="Форма обратной связи"/>
+            <area shape="circle" coords="420,130,70" onclick="changeColor()" 
+                    alt="Круг" title="Изменить цвет заголовка"/>
+            <area shape="poly" coords="585,60,670,200,500,200" onclick="showAlert()" 
+                    alt="Треугольник" title="Получить сообщение"/>
+            <area shape="poly" coords="295,240,380,285,380,390,295,345,210,390,210,285" href="https://rutube.ru/video/7bd9dbc64ca62160b91b67cb2dd02531/" 
+                    target="_blank" alt="Шестиугольник" title="Окрыть видео"/>
+            <area shape="poly" coords="460,240,635,240,585,390,410,390" href="https://doka.guide/html/" 
+                    target="_blank" alt="Параллелограмм" title="Почитать про HTML"/>
+        </map>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
